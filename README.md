@@ -1,37 +1,10 @@
-## Welcome to GitHub Pages
+## Christi Lee
 
-You can use the [editor on GitHub](https://github.com/AbstractLingua/Christi-Portfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/AbstractLingua/Christi-Portfolio/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+### # [Project 1: Real-Estate-Price-Prediction: Project Overview](http://ec2-3-15-213-204.us-east-2.compute.amazonaws.com/)
+- Machine learning model to predict the prices of homes in Bengaluru, India.
+- Used sklearn and linear regression to build the model using a home prices data set from kaggle.com.
+- Optimized Linear, Lasso, and Random Forest Regressors using GridSearchCV to find the best model.
+- Wrote python flask server that uses model to serve http requests.
+- Built website using html, css, and JavaScript that allows the user to input square foot area, number of baths, etc. which then calls the python flask server to retrieve the predicted price
