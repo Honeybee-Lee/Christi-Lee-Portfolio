@@ -9,4 +9,4 @@
 - Wrote python flask server that uses model to serve http requests.
 - Built website using html, css, and JavaScript that allows the user to input square foot area, number of baths, etc. which then calls the python flask server to retrieve the predicted price
 
-*NOTE The website may not be fully functional due to reaching free tier limits
+*NOTE The website may not be fully functional due to reaching AWS free tier limits
