@@ -1,0 +1,166 @@
+ /* COLOR PALETTE
+ #62929E - Steel Teal
+ #253C78 - Dark Cornflower Blue
+ #F8F7FF - Ghost White
+ #FFE45E - Minion Yellow
+ #56E39F - Medium Aquamarine */
+
+
+
+
+/* Global styles
+------------------------------------------ */
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+img {
+    width: 300px;
+}
+a {
+    /* color: rgb(113, 169, 204); */
+    color: #6299b3;
+}
+a:visited {
+    color: rgb(151, 151, 151);
+}
+a:focus {
+    outline: 1px solid black;
+}
+a:hover {
+    background: rgb(165, 165, 165);
+}
+a:active {
+    color: white;
+}
+h1 {
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 400;
+    /* font-family: 'Dancing Script', cursive; */
+}
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.job-title {
+    color: #272727;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    padding-top: 30px;
+}
+
+h1, h2 {
+    margin: 0;
+    /* font-weight: 500; */
+    /* font-family: 'Libre Baskerville', serif; */
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Libre Bodoni', serif;
+}
+.content-wrap {
+    width: 800px;
+    margin: 0 auto;
+    padding: 60px 0;
+}
+/* Profile
+------------------------------------------ */
+header {
+    background: #ffed95;
+    /* background: #EFEEB4; */
+    /* background: #F8F7FF; */
+    /* background: #f4efc0; */
+    
+}
+
+.header-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #343434;
+    padding: 4px 0;
+}
+
+/* Projects
+------------------------------------------ */
+.projects {
+    background: #e8f7e8;
+    color: #000000;
+}
+.projects a {
+    color: none;
+}
+.projects .btn {
+    background: rgb(23, 55, 87);
+    color: #d8d8d8;
+    text-decoration: none;
+    padding: 8px;
+    border-radius: 4px;
+    display: inline-block;
+}
+.projects .btn:hover {
+    background: rgba(75, 92, 109, 80%);
+}
+.project-item {
+    overflow: hidden;
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+.project-item img {
+    float: left;
+    margin: 20px;
+}
+/* .project-item h3 {
+    margin-top: 0;
+} */
+
+/* Work experience
+------------------------------------------ */
+.work-experience {
+    /* background: #62929E; */
+    /* background: #58b368; */
+    /* background: #b7dd97; */
+    /* background: #a1d29b; */
+    /* background: #9bd7af; */
+    /* background: #609588; */
+    /* background: #84bdae; */
+    background: #A1C6D7;
+}
+
+
+/* Education
+------------------------------------------ */
+.education {
+    /* background: #309975; */
+    /* background: #5c9e75; */
+    /* background: #194554; */
+    background: #F7FFF7;
+    color: #252525;
+}
+
+/* Contact Info
+------------------------------------------ */
+footer {
+    /* background: #1b326b; */
+    /* background: #454D66; */
+    /* background: #2c314c; */
+    /* background: #0b2934; */
+    /* background: #072029; */
+    background: #343434;
+    color: #F7FFF7;
+}
+
+.footer-link {
+    /* color: rgb(113, 169, 204); */
+    color: #ffed95;
+}
