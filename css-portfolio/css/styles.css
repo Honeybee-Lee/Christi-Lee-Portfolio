@@ -71,18 +71,36 @@ h1, h2 {
     font-family: 'Libre Bodoni', serif;
 }
 .content-wrap {
-    width: 800px;
+    max-width: 800px;
+    width: 85%;
     margin: 0 auto;
     padding: 60px 0;
 }
+.smaller {
+    font-size: 80%;
+}
+h3 {
+    margin-bottom: 0;
+}
+.item-details h3 + p {
+    font-style: italic;
+}
+.item-details h3 ~ p {
+    margin: 0;
+}
+.divider > section {
+    border-bottom: 1px dashed #343434;
+    padding: 25px 0;
+}
+.divider > section:last-of-type {
+    border-bottom: none;
+} 
+
+
 /* Profile
 ------------------------------------------ */
 header {
     background: #ffed95;
-    /* background: #EFEEB4; */
-    /* background: #F8F7FF; */
-    /* background: #f4efc0; */
-    
 }
 
 .header-item {
@@ -94,7 +112,7 @@ header {
 /* Projects
 ------------------------------------------ */
 .projects {
-    background: #e8f7e8;
+    background: #F7FFF7;
     color: #000000;
 }
 .projects a {
@@ -116,24 +134,11 @@ header {
     border-bottom: 1px dashed #343434;
     padding: 25px 0;
 }
-.project-item img {
-    float: left;
-    margin: 20px;
-}
-/* .project-item h3 {
-    margin-top: 0;
-} */
+
 
 /* Work experience
 ------------------------------------------ */
 .work-experience {
-    /* background: #62929E; */
-    /* background: #58b368; */
-    /* background: #b7dd97; */
-    /* background: #a1d29b; */
-    /* background: #9bd7af; */
-    /* background: #609588; */
-    /* background: #84bdae; */
     background: #A1C6D7;
 }
 
@@ -141,11 +146,15 @@ header {
 /* Education
 ------------------------------------------ */
 .education {
-    /* background: #309975; */
-    /* background: #5c9e75; */
-    /* background: #194554; */
-    background: #F7FFF7;
-    color: #252525;
+    /* background: #F7FFF7;
+    color: #252525; */
+    background-image: url(../images/sharon-mccutcheon-unsplash.jpg);
+    background-size: cover;
+    background-position: top right;
+    padding-bottom: 100px;
+}
+.education p {
+    width: 60%;
 }
 
 /* Contact Info
@@ -164,3 +173,25 @@ footer {
     /* color: rgb(113, 169, 204); */
     color: #ffed95;
 }
+
+.contact-list {
+    list-style-type: none;
+}
+
+/* Responsive styles
+------------------------------------------ */
+@media screen and (min-width:750px){
+    .project-item img {
+        float: left;
+        margin: 20px;
+    }
+
+    .job-item {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        column-gap: 20px;
+    }
+}
+/* @media screen and (max-width:749px) {
+
+} */
