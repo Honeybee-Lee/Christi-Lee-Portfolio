@@ -9,5 +9,6 @@ Currently creating page for portfolio/resume view.
 - Add more content
    - Projects
    - Work experience
+- Maybe a link to blog?
 - EVENTUALLY...
    - Will add more functionality as I learn!
